@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>松屋ゲーム</title>
+    <!-- Link to stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main style="background: white; ">
+        <div class="vu">
+            <img src="assets/dishes/images1.png" style="border-radius:50%;width: 130px;height: 130px;">
+            <button class="btn-stop-game">辞める</button>
+
+        </div>
+        <!-- Presentation of the game -->
+        <h1 class="header_matsuya"></h1>
+        <p style="font-weight: bold">「料理の推測」ゲームへようこそ！</p>
+        <!-- Button to end or start a game -->
+
+        <!-- Container to display the game interface -->
+        <div class ="game-container">
+            <img src="" alt="Picture of dishes">
+            <h2></h2>
+            <ul>
+                
+            </ul>
+        </div>
+        
+        <!-- Container to display the results interface after a finished game -->
+        <div class="results-container">
+            <div class="result-info">
+
+            </div>
+            <button id="btn-show-wrong-answers">違う回答</button>
+            <div class="wrong-guesses">
+
+            </div>    
+        </div>
+    </main>
+    <!-- Link to script file -->
+    <script src="script.js"></script>
+    <script src="animation.js"></script>
+</body>
+</html>

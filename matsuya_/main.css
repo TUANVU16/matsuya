@@ -1,0 +1,18 @@
+:root{
+    background-color: rgb(29, 26, 26);
+}
+.select{
+    margin-top: 10px;
+}
+
+.container{
+    position: relative;
+    height: auto;
+    z-index:0;
+}
+
+.play{
+    background: url("./assets/main/play.png");
+    position: absolute;
+    z-index: 1;
+}
